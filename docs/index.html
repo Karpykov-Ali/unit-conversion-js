@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Metric/Imperial Unit Conversion</title>
+   <link rel="stylesheet" href="./css/indexmin.css" />
+</head>
+
+<body>
+   <div class="unit-conversion">
+      <div class="unit-conversion__container container">
+         <div class="unit-conversion__wrapper">
+            <div class="unit-conversion__top unit-top">
+               <h1>
+                  Metric/Imperial Unit Conversion
+               </h1>
+               <input type="number" name="value" id="input-el">
+               <button id="convert-el"><span>Convert</span></button>
+            </div>
+            <div class="unit-conversion__bottom unit-bottom">
+               <div class="unit-bottom__column">
+                  <h2>
+                     Length (Meter/Feet)
+                  </h2>
+                  <p id="length-el"></p>
+               </div>
+               <div class="unit-bottom__column">
+                  <h2>
+                     Volume (Liters/Gallons)
+                  </h2>
+                  <p id="volume-el"></p>
+               </div>
+               <div class="unit-bottom__column">
+                  <h2>
+                     Mass (Kilograms/Pounds)
+                  </h2>
+                  <p id="mass-el"></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="./js/index.bundle.js"></script>
+</body>
+
+</html>
